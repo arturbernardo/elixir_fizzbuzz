@@ -4,6 +4,8 @@
 
 ## Installation
 
+player = ExMon.create_player("Artur", :kick, :punch, :heal)
+
 Para rodar interativo:
 ```iex -S mix ```
 
