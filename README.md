@@ -4,6 +4,19 @@
 
 ## Installation
 
+Para rodar interativo:
+```iex -S mix ```
+
+para baixar dependências:
+```mix deps.get```
+
+"sonar"
+adicionar dependência 
+```:credo, "~> 1.7", only: [:dev, :test], runtime: false}```
+para mix.exs
+
+```mix credo```
+
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `fizz_buzz` to your list of dependencies in `mix.exs`:
 
